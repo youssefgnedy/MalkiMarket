@@ -1,0 +1,14 @@
+{
+  "appId": "com.almalky.market",
+  "appName": "Malki Market",
+  "webDir": "dist",
+  "server": {
+    "url": "https://malki-store-1.vercel.app/",
+    "cleartext": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
