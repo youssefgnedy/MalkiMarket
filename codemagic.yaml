@@ -7,11 +7,7 @@ workflows:
       node: latest
 
     scripts:
-      - npm install
-      - npx cap sync ios
-      - cd ios/App
-      - xcodebuild \
-          -workspace App.xcworkspace \
-          -scheme App \
-          -configuration Release \
-          -sdk iphoneos
+       - npm install
+  - npx cap sync ios
+  - cd ios/App
+  - xcodebuild -workspace App.xcworkspace -scheme App -configuration Release -sdk iphoneos
